@@ -1,4 +1,13 @@
-# TD1 AoC Questions Submission Guidelines
+## Rapport
+
+https://docs.google.com/document/d/1II4LxQoOZFTiIARbjWgDT4_wGce7NHMwDXw4hXS5QEk/edit?usp=sharing
+
+## Collaborators
+
+- Fayssal EL ANSARI
+- Jonathan DI MARTINO
+
+## TD1 AoC Questions Submission Guidelines
 
 The expected submission for the TD1 of AoC should include:
 

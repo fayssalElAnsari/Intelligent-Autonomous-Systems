@@ -1,0 +1,87 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/k-team/khepera3/protos/Khepera3.proto"
+
+WorldInfo {
+  info [
+    "The model of the Khepera III robot"
+  ]
+  title "Khepera III"
+  basicTimeStep 16
+  contactProperties [
+    ContactProperties {
+      material1 "wheel"
+      coulombFriction [
+        0.45
+      ]
+    }
+    ContactProperties {
+      material1 "body"
+      coulombFriction [
+        0.1
+      ]
+    }
+  ]
+}
+Viewpoint {
+  orientation 0.15955051879881993 0.9564819466391011 -0.2443070152584721 1.198142759965964
+  position -1.5169227819970446 0.7427915288556859 5.425781172871621
+  followSmoothness 0
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  rotation 0 1 0 0
+  floorSize 2 2
+}
+WoodenBox {
+  translation 0.0369489 -0.553736 0.05
+  rotation 0.940554832051147 0.240163077829669 0.240163077829669 1.632043330248321
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.618052 0.952929 0.05
+  rotation -0.675244449310683 0.521557731068725 0.521557731068725 4.329427817464676
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.5 -0.35471 0.05
+  rotation -0.820542997539208 0.404171491566001 0.404171491566001 4.515877143482041
+  name "wooden box(2)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.0499779 0.364172 0.05
+  rotation -0.820542997539208 0.404171491566001 0.404171491566001 4.515877143482041
+  name "wooden box(3)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.65 -0.66 0.05
+  rotation -0.820542997539208 0.404171491566001 0.404171491566001 4.515877143482041
+  name "wooden box(4)"
+  size 0.1 0.1 0.1
+}
+Khepera3 {
+  hidden position_0_0 7114.899941402974
+  hidden position_0_1 4890.210521285155
+  hidden linearVelocity_0 -0.23278304117310838 -0.09174808663680654 -1.2730087155475382e-05
+  hidden angularVelocity_0 -0.001279141303376695 -0.0026562971346410767 0.2505399127537641
+  hidden rotation_1 0.6913382832494523 -0.6913383365340132 0.21000638693164395 3.5555892218373866
+  hidden linearVelocity_1 -0.22315172568940317 -0.08513004509498384 8.297513077491414e-06
+  hidden angularVelocity_1 4.021540812973 -10.541708161110462 0.2681552375738415
+  hidden rotation_2 0.7068856310667975 -0.7068856743339034 0.02500695928733331 3.191596070135702
+  hidden linearVelocity_2 -0.24430179219517945 -0.09321660349632624 3.2364533481424005e-05
+  hidden angularVelocity_2 4.390757605122778 -11.509111406691595 0.27037145951185976
+  translation -0.8133856493871278 0.5610067137445603 -0.003411401958046876
+  rotation 0.00031652626403656255 -0.00029876938046140847 -0.9999999052739863 2.774163512465376
+  wheelMaterial "wheel"
+  bodyMaterial "body"
+}
