@@ -3,8 +3,6 @@ import paho.mqtt.client as mqtt
 # MQTT broker details
 broker_address = "192.168.137.94"
 port = 1883  # default MQTT broker port
-topic = "alphabot2/actuators/move"
-message = "forward"
 
 is_obstacle_present = False
 
@@ -15,6 +13,7 @@ def on_connect(client, userdata, flags, rc):
     print("Connected with result code "+str(rc))
     client.subscribe("alphabot2/sensors/obstacle/right")
     client.subscribe("alphabot2/sensors/obstacle/left")
+    client.publish("alphabot2/actuators/move", "forward")
 
 
 def on_message(client, userdata, msg):
