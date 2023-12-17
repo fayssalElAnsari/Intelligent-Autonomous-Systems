@@ -22,6 +22,8 @@ https://docs.google.com/document/d/1II4LxQoOZFTiIARbjWgDT4_wGce7NHMwDXw4hXS5QEk/
 - [x] **Algorithm Implementation with Proximity Sensors**: With the Webots simulator using the Khepera III robot, implement the algorithm using all of the robot's proximity sensors. Choose the correct weights to ensure satisfactory behavior of the robot.
 
 - [x] **Neural Network for Obstacle Avoidance**: How would you implement a neural network for obstacle avoidance based on Braitenberg's approach for the Alphabot2? Plan and outline the implementation.
+![braitenberg.gif](/Videos/braitenberg.gif) 
+
 
 - [~] **Obstacle Contour Following Algorithm for Khepera III**: What algorithm would you implement for contour following of obstacles on the right side with the Khepera III? Implement and test this.
 
