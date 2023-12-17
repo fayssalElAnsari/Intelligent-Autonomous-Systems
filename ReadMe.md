@@ -16,6 +16,8 @@ https://docs.google.com/document/d/1II4LxQoOZFTiIARbjWgDT4_wGce7NHMwDXw4hXS5QEk/
 - [x] **Simulator and IDE Setup**: After installing the simulator and its IDE, go through the example of implementing the Khepera III robot to ensure everything is operational.
 
 - [x] **Straight Line Movement and Stop Implementation**: From your previous coursework, implement the movement of your robot in a straight line and program it to stop in front of the first encountered obstacle.
+![khepera_stop_on_obstacle.gif](/Videos/khepera_stop_on_obstacle.gif)  
+
 
 - [x] **Algorithm Implementation with Proximity Sensors**: With the Webots simulator using the Khepera III robot, implement the algorithm using all of the robot's proximity sensors. Choose the correct weights to ensure satisfactory behavior of the robot.
 
