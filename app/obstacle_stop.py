@@ -8,12 +8,14 @@ is_obstacle_present = False
 
 client = mqtt.Client()
 
+forward_speed = "10 10"
+
 # MQTT callbacks
 def on_connect(client, userdata, flags, rc):
     print("Connected with result code "+str(rc))
     client.subscribe("alphabot2/sensors/obstacle/right")
     client.subscribe("alphabot2/sensors/obstacle/left")
-    client.publish("alphabot2/actuators/move", "forward")
+    client.publish("alphabot2/actuators/motors", forward_speed)
 
 
 def on_message(client, userdata, msg):
@@ -32,13 +34,13 @@ def on_message(client, userdata, msg):
     is_obstacle_present = (left_obstacle or right_obstacle)
 
     # Publish motor speeds
-    msg = "forward"
     if is_obstacle_present:
         print("obstacle is present!")
-        msg = "stop"
+        client.publish("alphabot2/actuators/move", "stop")
     else:
+        client.publish("alphabot2/actuators/motors", forward_speed)
         print("obstacle cleared!")
-    client.publish("alphabot2/actuators/move", msg)
+
 
 client = mqtt.Client()
 client.on_connect = on_connect
