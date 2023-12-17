@@ -1,7 +1,3 @@
-## Rapport
-
-https://docs.google.com/document/d/1II4LxQoOZFTiIARbjWgDT4_wGce7NHMwDXw4hXS5QEk/edit?usp=sharing
-
 ## Collaborators
 
 - Fayssal EL ANSARI
