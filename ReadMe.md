@@ -35,6 +35,8 @@ https://docs.google.com/document/d/1II4LxQoOZFTiIARbjWgDT4_wGce7NHMwDXw4hXS5QEk/
 
 - [ ] **Line Following with Alphabot2 Sensors**: If you were to implement line following using the sensors of the Alphabot2, what algorithm would you propose? Implement and test your idea.
 
+![ab2-micro-services-architecture.png](/img/ab2-micro-services-architecture.png)  
+
 ## TD1 AoC Questions Submission Guidelines
 
 The expected submission for the TD1 of AoC should include:
