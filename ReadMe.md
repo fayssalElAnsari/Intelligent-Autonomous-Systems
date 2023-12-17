@@ -21,11 +21,11 @@ https://docs.google.com/document/d/1II4LxQoOZFTiIARbjWgDT4_wGce7NHMwDXw4hXS5QEk/
 
 - [x] **Neural Network for Obstacle Avoidance**: How would you implement a neural network for obstacle avoidance based on Braitenberg's approach for the Alphabot2? Plan and outline the implementation.
 
-- [ ] **Obstacle Contour Following Algorithm for Khepera III**: What algorithm would you implement for contour following of obstacles on the right side with the Khepera III? Implement and test this.
+- [~] **Obstacle Contour Following Algorithm for Khepera III**: What algorithm would you implement for contour following of obstacles on the right side with the Khepera III? Implement and test this.
 
 ### AlphaBot2
 
-- [ ] **Straight Line Movement and Stop Implementation**: From your previous coursework, implement the movement of your robot in a straight line and program it to stop in front of the first encountered obstacle.
+- [x] **Straight Line Movement and Stop Implementation**: From your previous coursework, implement the movement of your robot in a straight line and program it to stop in front of the first encountered obstacle.
 
 - [ ] **Finite State Machine for Obstacle Avoidance**: If you had to provide an obstacle avoidance algorithm for the Alphabot2 using a finite state machine, what would it look like? Implement and test this.
 
